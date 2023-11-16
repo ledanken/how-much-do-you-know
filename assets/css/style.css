@@ -13,3 +13,23 @@ img {
     height: 218px;
     padding: 15px 5px 0px 15px;
 }
+
+.category-name {
+    text-transform: uppercase;
+}
+
+
+
+/**MainBody*/
+.main {
+    background-color: pink;
+    padding: 100px 7px 100px 7px;
+}
+
+
+
+/*FOOTER*/
+.footer {
+    background-color: orange;
+    margin-top: auto;
+}
