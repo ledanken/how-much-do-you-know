@@ -6,3 +6,10 @@ function questList() {
 
 }
 
+function submitAnswer() {
+
+}
+
+function reshuffleQuestions() {
+    
+}
