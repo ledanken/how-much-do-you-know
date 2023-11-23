@@ -23,7 +23,15 @@ img {
 /**MainBody*/
 .main {
     background-color: pink;
-    padding: 100px 7px 100px 7px;
+    padding: 50px 7px 50px 7px;
+}
+
+p {
+    font-size: large;
+}
+
+#givenAnswer {
+    height: 30px;
 }
 
 
