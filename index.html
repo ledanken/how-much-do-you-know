@@ -15,21 +15,23 @@
     </div>
 
 
-
-
     <!--MAINBODY-->
     <div class="main">
-        <button class="button-prev">Previous</button>
-        <button class="button-next">Next</button>
-        <p>Sample Question: How many continents does the world have?</p>
-        Your answer: <input type="text" class="givenAnswer">
-        <button calss="submit-answer" value="submit">Submit</button>
+        <button id="button-prev">Previous</button>
+        <button id="button-next">Next</button>
+        <p id="questions"></p>
+        
+        <p>Your Answer:
+            <input type="text" id="givenAnswer">
+            <button onclick="inputtedAnswer()">Submit</button>
+        </p>
+        <p id="message"></p>
         <br>
         <hr>
-        <button>Reshuffle Questions</button>
+        <br>
+        <button id="ans-prev-next">The correct Answer</button>
+        <p id="answer"></p>
     </div>
-
-
 
 
     <!--FOOTER-->
