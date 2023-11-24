@@ -70,11 +70,20 @@ function next() {
     i = 1 % questionList.length;
     return questionList[i];
 }
-
-
 document.getElementById("button-next").addEventListener("click", function(e) {
     document.getElementById("questions").innerHTML = next();
-    }
-);
+});
 
+
+//Displaying the correct answer
+document.getElementById("ans-prev-next").addEventListener("click", function(e) {
+    document.getElementById("answer").innerHTML = prevAnswer();
+    document.getElementById("answer").innerHTML = nextAnswer();
+});
+
+//User's inputted answer
+function inputtedAnswer() {
+    let userInput = document.getElementById("givenAnswer").value;
+    document.getElementById("message").innerHTML = userInput;
+}
 
