@@ -76,6 +76,20 @@ document.getElementById("button-next").addEventListener("click", function(e) {
 
 
 //Displaying the correct answer
+function prevAnswer() {
+    if (i === 0) {
+        i = answerList.length;
+    }
+    i--;
+    return answerList[i];
+}
+
+function nextAnswer() {
+    i++;
+    i = i % answerList.length;
+    return answerList[i];
+}
+
 document.getElementById("ans-prev-next").addEventListener("click", function(e) {
     document.getElementById("answer").innerHTML = prevAnswer();
     document.getElementById("answer").innerHTML = nextAnswer();
