@@ -67,7 +67,7 @@ document.getElementById("button-prev").addEventListener("click", function() {
 
 function next() {
     i++;
-    i = 1 % questionList.length;
+    i = i % questionList.length;
     return questionList[i];
 }
 document.getElementById("button-next").addEventListener("click", function() {
