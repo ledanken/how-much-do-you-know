@@ -60,7 +60,7 @@ function prev() {
     i--;
     return questionList[i];
   }
-document.getElementById("button-prev").addEventListener("click", function(event) {
+document.getElementById("button-prev").addEventListener("click", function() {
     document.getElementById("questions").innerHTML = prev(); 
 });
 
@@ -70,7 +70,7 @@ function next() {
     i = 1 % questionList.length;
     return questionList[i];
 }
-document.getElementById("button-next").addEventListener("click", function(event) {
+document.getElementById("button-next").addEventListener("click", function() {
     document.getElementById("questions").innerHTML = next();
 });
 
@@ -90,7 +90,7 @@ function nextAnswer() {
     return answerList[i];
 }
 
-document.getElementById("ans-prev-next").addEventListener("click", function(event) {
+document.getElementById("ans-prev-next").addEventListener("click", function() {
     document.getElementById("answer").innerHTML = prevAnswer();
     document.getElementById("answer").innerHTML = nextAnswer();
 });
