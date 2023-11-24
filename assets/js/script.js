@@ -45,7 +45,36 @@ let answerList = [
     "1930"
 ];
 
+
 //Initializing the displayed question
 document.getElementById("questions").innerHTML = questionList[0];
+
+
+//Running the previous and next buttons
+let i = 0;
+
+function prev() {
+    if (i === 0) {
+        i = questionList.length;        
+    }
+    i--;
+    return questionList[i];
+  }
+document.getElementById("button-prev").addEventListener("click", function(e) {
+    document.getElementById("questions").innerHTML = prev(); 
+});
+
+
+function next() {
+    i++;
+    i = 1 % questionList.length;
+    return questionList[i];
+}
+
+
+document.getElementById("button-next").addEventListener("click", function(e) {
+    document.getElementById("questions").innerHTML = next();
+    }
+);
 
 
