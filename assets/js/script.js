@@ -1,3 +1,4 @@
+//Lists of questions and answers (2 arrays)
 let questionList = ["How many continents does the world have?",
     "What is the capital city of Singapore?",
     "12 / 3 *14 + 7 - 3 * 4 = ?",
@@ -43,5 +44,8 @@ let answerList = [
     "Hedy Lamarr",
     "1930"
 ];
+
+//Initializing the displayed question
+document.getElementById("questions").innerHTML = questionList[0];
 
 
