@@ -32,20 +32,19 @@
 
     <!--MAINBODY-->
     <div class="main">
-        <button id="button-prev">Previous</button>
-        <button id="button-next">Next</button>
-        <p id="questions"></p>
-        
-        <p>Your Answer:
-            <input type="text" id="givenAnswer">
-            <button onclick="inputtedAnswer()">Submit</button>
-        </p>
-        <p id="message"></p>
-        <br>
-        <hr>
-        <br>
-        <button id="ans-prev-next">The Correct Answer</button>
-        <p id="answer"></p>
+        <div>
+            <p>We want to know your suggestions and/or feedback.
+                Please fill out the form below.
+            </p>
+            <form method="get" action="">
+                <label for="name">Name</label><br>
+                <input type="text" name="name" id="name"required><br>
+                <label for="name">Surname</label><br>
+                <input type="text" name="surname" id="surname"required><br>
+                <textarea name="message" placeholder="Your message here" required></textarea><br>
+                <input type="submit">
+            </form>
+        </div>
     </div>
 
 

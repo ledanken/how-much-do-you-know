@@ -67,10 +67,27 @@ p {
     height: 30px;
 }
 
+textarea {
+    width: 500px;
+    height: 150px;
+}
+
 
 
 /*FOOTER*/
 .footer {
     background-color: orange;
     margin-top: auto;
+}
+
+
+
+/*Add'l layout*/
+@media screen and (max-width: 475px) {
+    .home-container, .log-container {
+        flex: 100%;
+    }
+    textarea {
+        width: 250px;
+    }
 }
