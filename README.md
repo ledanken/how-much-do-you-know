@@ -1,6 +1,8 @@
 # How Much Do You Know Website PP2<br /> <br />
 
-### Here is the link: [How Much Do you You Know] ()<br />
+### Here is the link: [How Much Do you You Know] (https://ledanken.github.io/how-much-do-you-know/)<br />
+
+### I did a submitted feedback-form-display, and it is strange that is not running with Gitpod, but in my local IDE, it does. Gitpod has not been running well with me, That's why, I mostly decided to do it with my local IDE.  [Here's the image of the display](submitted-form.png)    
 
 ### Here is the sample image ![](assets/images/howmuchdoyouknow.png)<br> <br>
 
