@@ -19,10 +19,6 @@
                 <div><a href="index.html">Home</a></div>
                 <div><a href="feedbackForm.html">Send us Feedback</a></div>
             </div>
-            <div class="log-container">
-                <div><a href="">Register</a></div>
-                <div><a href="">LogIn</a></div>
-            </div>
         </div>
     </div>
     <div>
@@ -36,13 +32,13 @@
             <p>We want to know your suggestions and/or feedback.
                 Please fill out the form below.
             </p>
-            <form method="get" action="">
-                <label for="name">Name</label><br>
-                <input type="text" name="name" id="name"required><br>
-                <label for="name">Surname</label><br>
+            <form id="myFeedback" method="POST">
+                <label for="givenName">Name</label><br>
+                <input type="text" name="givenName" id="givenName"required><br>
+                <label for="surname">Surname</label><br>
                 <input type="text" name="surname" id="surname"required><br>
-                <textarea name="message" placeholder="Your message here" required></textarea><br>
-                <input type="submit">
+                <textarea id="feedbackMessage" name="feedbackMessage" placeholder="Your message here" required></textarea><br>
+                <input type="submit" value="submit">
             </form>
         </div>
     </div>
@@ -51,11 +47,11 @@
     <!--FOOTER-->
     <div class="footer">
         <Footer>
-            <p>Copyright November 2023</p>
+            <p>How Much Do You Know Copyright November 2023</p>
         </Footer>
     </div>
 
-
+    <script src="assets/js/form.js"></script>
     <script src="assets/js/script.js"></script>
 </body>
 </html>

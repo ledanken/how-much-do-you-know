@@ -80,6 +80,11 @@ textarea {
     margin-top: auto;
 }
 
+.message {
+    word-wrap: break-word;
+    width: 500px;
+}
+
 
 
 /*Add'l layout*/
@@ -87,7 +92,7 @@ textarea {
     .home-container, .log-container {
         flex: 100%;
     }
-    textarea {
+    textarea, .message {
         width: 250px;
     }
 }
